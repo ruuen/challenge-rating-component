@@ -1,0 +1,161 @@
+/* overpass-regular - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/overpass-v10-latin-regular.woff2") format("woff2"), url("./fonts/overpass-v10-latin-regular.woff") format("woff");
+}
+/* overpass-700 - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/overpass-v10-latin-700.woff2") format("woff2"), url("./fonts/overpass-v10-latin-700.woff") format("woff");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: "Overpass", sans-serif;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  background: hsl(216deg, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 1.5em;
+}
+
+.rating {
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  padding: 1.75em 1.5em;
+  border-radius: 15px;
+  font-weight: 400;
+}
+.rating__icon-wrapper {
+  background: hsl(213deg, 19%, 18%);
+  width: fit-content;
+  padding: 0.75em;
+  border-radius: 50%;
+}
+.rating__icon {
+  width: 0.875rem;
+  display: block;
+}
+.rating__heading {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  padding: 0.75em 0 0.5em 0;
+}
+.rating__copy {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  padding: 0 0 1.5em 0;
+}
+.rating__options-btn-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating__options-btn {
+  margin: 0;
+  padding: 1em;
+  min-width: 3em;
+  min-height: 3em;
+  overflow: visible;
+  background: hsl(213deg, 19%, 18%);
+  color: hsl(216deg, 12%, 54%);
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.875rem;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+}
+.rating__options-btn--active {
+  background: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.rating__options-btn:hover {
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+}
+.rating__options-btn:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.25);
+  outline-offset: -2px;
+}
+.rating__options-btn:active {
+  transform: scale(0.99);
+}
+.rating__btn {
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  width: 100%;
+  padding: 1em;
+  margin: 2em 0 0 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 22.5px;
+  outline: none;
+  border-color: transparent;
+}
+.rating__btn:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+.rating__btn:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.75);
+  outline-offset: -2px;
+}
+.rating__btn:active {
+  transform: scale(0.99);
+}

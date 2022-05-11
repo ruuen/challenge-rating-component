@@ -1,0 +1,30 @@
+/* overpass-regular - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/overpass-v10-latin-regular.woff2") format("woff2"),
+    url("./fonts/overpass-v10-latin-regular.woff") format("woff");
+}
+/* overpass-700 - latin */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/overpass-v10-latin-700.woff2") format("woff2"),
+    url("./fonts/overpass-v10-latin-700.woff") format("woff");
+}
+
+// Colours
+$clr-orange: hsl(25, 97%, 53%);
+$clr-blue: hsl(213, 19%, 18%);
+$clr-blue-dark: hsl(216, 12%, 8%);
+$clr-grey: hsl(216, 12%, 54%);
+$clr-grey-light: hsl(217, 12%, 63%);
+$clr-white: hsl(0, 0%, 100%);
+$clr-black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+
+// Fonts
+$font-family-primary: "Overpass", sans-serif;
+$font-weight-primary: 400;
+$font-weight-bold: 700;
