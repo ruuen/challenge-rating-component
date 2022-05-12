@@ -31,6 +31,10 @@ h6 {
   font-family: var.$font-family-primary;
 }
 
+.hidden {
+  display: none;
+}
+
 // Visually hide element but leave it accessible for screen readers
 // https://www.a11ywithlindsey.com/blog/introduction-accessible-labeling
 .visually-hidden {

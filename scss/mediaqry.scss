@@ -1,1 +1,41 @@
 @use "variables" as var;
+
+@media (min-width: var.$breakpoint-tablet) {
+  .wrapper {
+    padding: 2em;
+  }
+
+  .rating {
+    &__icon {
+      width: 1.125rem;
+    }
+
+    &__icon-wrapper {
+      padding: 1em;
+    }
+
+    &__heading {
+      font-size: 1.75rem;
+    }
+
+    &__copy {
+      font-size: 0.9375rem;
+    }
+
+    &__btn {
+      font-size: 0.9375rem;
+    }
+
+    &__options-btn {
+      font-size: 1rem;
+    }
+  }
+
+  .thank-you {
+    padding: 1em 0;
+
+    &__copy {
+      padding: 0.75em;
+    }
+  }
+}
