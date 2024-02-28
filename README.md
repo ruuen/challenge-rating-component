@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-with-scss-and-bem-BkPkNw585)
-- Live Site URL: [Netlify](https://rd-challenge-rating-component.netlify.app/)
+- Live Site URL: [Cloudflare Pages](https://mbr-challenge-rating-component.pages.dev/)
 
 ## My process
 
@@ -60,5 +60,5 @@ I feel like I could've achieved a result that didn't use media queries if I was 
 
 ## Author
 
-- Frontend Mentor - [@ruuendigital](https://www.frontendmentor.io/profile/ruuendigital)
+- Frontend Mentor - [@ruuen](https://www.frontendmentor.io/profile/ruuen)
 - Twitter - [@maxruuen](https://www.twitter.com/maxruuen)
